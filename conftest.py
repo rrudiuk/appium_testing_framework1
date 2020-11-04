@@ -17,7 +17,7 @@ def driver(request):
     dc['platformName'] = 'Android'
     # deviceName desired capability specify the device id detail to Appium
     # device id is got from running adb devices command in PC
-    dc['deviceName'] = '010cf2ff9563bf94'
+    dc['deviceName'] = 'cd8a681b'
     # Creating the Driver by passing Desired Capabilities
     driver = webdriver.Remote("http://localhost:4723/wd/hub", dc)
 
